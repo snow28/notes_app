@@ -1,0 +1,63 @@
+#container{
+            margin-top:120px;   
+        }
+
+
+        .inputStyle{
+          border-radius : 4px;
+          background: linear-gradient(#FFFFFF,#ECEAE7); 
+        }
+
+        #noteLabel{
+          color : red;
+        }
+
+        #notePad, #allNotes, #done, .delete{
+            display: none;   
+        }
+
+        .buttons{
+            margin-bottom: 20px;   
+        }
+
+        textarea , #email , #username{
+            width: 100%;
+            max-width: 100%;
+            font-size: 16px;
+            line-height: 1.5em;
+            border-left-width: 20px;
+            border-color: #CA3DD9;
+            color: #CA3DD9;
+            background-color: #FBEFFF;
+            padding: 10px;
+              
+        }
+
+        .preview{
+          background-color : gray;
+        }
+        
+        .noteheader{
+            border: 1px solid grey;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 0 10px;
+            background: linear-gradient(#FFFFFF,#ECEAE7);
+        }
+          
+        .text{
+            font-size: 20px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+          
+        .timetext{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .notes{
+            margin-bottom: 100px;
+        }
